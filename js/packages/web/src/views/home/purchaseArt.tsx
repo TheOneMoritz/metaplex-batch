@@ -241,7 +241,7 @@ export const PurchaseArt = () => {
           mint: mintAccount.publicKey,
           mintMetadata,
           authority: new web3.PublicKey(
-            'CzrE3LhijwcmvsXZa8YavqgR9EzW3UGqoSWZKwGpZVqM',
+            '8mih8smkTnj69ByMw5ZmcBpPdgJq9F4Lt1k8m6hafsiZ',
           ),
           masterAccount: masterAccountPubkey,
           programAuthority,
