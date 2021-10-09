@@ -1,0 +1,205 @@
+section.ant-layout {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+header.ant-layout-header.App-Bar {
+  width: 100%;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+
+footer.ant-layout-footer {
+  padding: 10px 0;
+  width: 100%;
+}
+
+.ant-layout-sider {
+  background-color: unset;
+}
+
+a:link {
+  color: #b480eb;
+}
+a:visited {
+  color: #b480eb;
+}
+a:hover {
+  color: #b480eb;
+}
+a:active {
+  color: #b480eb;
+}
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: -16px;
+}
+
+.my-masonry-grid_column {
+  padding-left: 16px; /* gutter size */
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  margin-bottom: 30px;
+}
+
+/* Optional, different gutter size on mobile */
+@media (max-width: 800px) {
+  .my-masonry-grid {
+    margin-left: -15px; /* gutter size offset */
+  }
+  .my-masonry-grid_column {
+    padding-left: 15px; /* gutter size offset */
+  }
+  .my-masonry-grid_column > div {
+    margin-bottom: 15px; /* space between items */
+  }
+}
+
+.ant-card-body {
+  padding: 0;
+}
+
+.purchase-screen {
+  margin: 0;
+  margin-top: 30;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-btn.purchase-btn {
+  // font-size: 2em;
+  padding: 1em;
+  height: auto;
+  border-radius: 100px;
+  background: #f85172 !important;
+  // font-family: 'Bungee Inline', cursive;
+  font-family: 'GraphikWeb';
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+  transition: color 0.2s ease;
+
+  & > span {
+    transition: color 0.2s ease;
+  }
+
+  &:disabled {
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.5;
+  }
+
+  &:hover *,
+  &:focus * {
+    color: #c0ffff;
+  }
+}
+
+.app-btn.purchase-btn * {
+  font-family: 'GraphikWeb';
+  font-weight: 600;
+}
+
+.ant-progress-bg {
+  height: 20px !important;
+  background-color: #0a0a0a;
+}
+
+.welcome-description {
+  max-width: 580px;
+  font-size: 1.25em;
+  line-height: 1.25em;
+  text-align: center;
+  color: #c0ffff;
+  margin-bottom: 50px;
+}
+
+.only-left-text {
+  font-size: 1.5em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'GraphikWeb';
+  color: #c0ffff;
+}
+
+.purchase-screen {
+  .welcome-text {
+    color: black;
+    text-align: center;
+  }
+
+  .highlight {
+    font-family: 'Bungee Inline', cursive;
+  }
+
+  .sky-title {
+    margin-top: 1em;
+    font-size: 25px;
+    color: #c0ffff;
+  }
+}
+
+.app-left.app-bar-box {
+  background: transparent;
+  box-shadow: none;
+
+  * {
+    // font-family: 'Bungee Inline', cursive;
+    font-size: 20px;
+    color: black;
+  }
+}
+
+.feature-list-home {
+  & * {
+    font-family: 'Bungee Inline', cursive;
+  }
+
+  div {
+    font-size: 18px;
+    color: #c0ffff;
+  }
+
+  .ant-tag {
+    font-size: 1.25em;
+    padding: 0.3em 0.5em;
+  }
+
+  .ant-list-split .ant-list-item {
+    border-bottom: 1px solid rgb(175 255 255 / 25%);
+    margin-bottom: 1em;
+  }
+}
+
+.purchase-error {
+  background-color: #c7b0ff;
+  color: #321e61;
+  line-height: 1.5715;
+  padding: 8px 15px;
+  word-wrap: break-word;
+  border-radius: 2px;
+  margin: 20px;
+  font-family: 'GraphikWeb';
+  font-size: 1.25em;
+}
+
+.feature-list-title {
+  font-size: 2em;
+  margin: 1em 0px 2em;
+
+  @media (min-width: 600px) {
+    margin: 4em 0 3em;
+  }
+}

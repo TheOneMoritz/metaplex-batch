@@ -1,0 +1,13 @@
+export { HomeView } from './home';
+export { ArtView } from './art';
+export { ArtCreateView } from './artCreate';
+export { ArtCreateBulkView } from './artCreateBulk';
+export { ArtistView } from './artist';
+export { ArtistsView } from './artists';
+export { AuctionView } from './auction';
+export { AuctionCreateView } from './auctionCreate';
+export { ArtworksView } from './artworks';
+export { AnalyticsView } from './analytics';
+export { AboutView } from './about';
+export { FaqView } from './faq';
+export { RoadmapView } from './roadmap';
